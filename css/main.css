@@ -10,11 +10,7 @@ a {
 
 /*nav start*/
 
-nav ul li{
-    display: inline;
-
-}
-
+ 
 nav ul img{
     width: 10%;
 }
@@ -49,7 +45,7 @@ nav ul{
 }
 
 .carousel-inner .item {
-	height: 600px;
+	height: 800px;
 	background-size: cover;
 	background-position: center;
 }
@@ -59,10 +55,10 @@ nav ul{
 
 }
 .slide-two, .slide-three, .slide-four {
-    padding-bottom: 100px;
+    padding-bottom: 400px;
 }
 .slide-one-logo {
-	max-height: 300px;
+	max-height: 400px;
 }
 
 .carousel-caption {
@@ -170,4 +166,8 @@ nav ul{
 
 #col-eventad {
     padding: 45px 0px;
+}
+
+.col-md-4 p{
+    padding-top:15px;
 }
