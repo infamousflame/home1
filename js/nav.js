@@ -9,15 +9,17 @@ function listLeft(){
     list.css("color", "black");
     list.css("left", "-200px");
     list.css("z-index", "999");
-    list.css("margin-top", "120px");
+    list.css("padding-top", "120px");
     list.css("list-style-type", "none");
     list.css("background-color", "rgba(255,255,255,.8)");
     list.css("filter", "(4px)");
-    listEl.css("margin-top", "50px");
+    listEl.css("padding-top", "50px");
 }
 
 function logo(){
     logoEl.css("width", "100px");
+    logoEl.css("left", "20px");
+    logoEl.css("top", "30px");
     logoEl.css("position", "fixed");
     logoEl.css("cursor","pointer");
     logoEl.css("z-index","9999");
@@ -44,6 +46,7 @@ function toggleNav(){
         list.addClass("toggled");
         console.log("xd");
     }
+    
 }
 
 
@@ -51,3 +54,4 @@ listLeft();
 logo();
 
 logoEl.on("click", toggleNav);
+document.body.on("click", toggleNav);
