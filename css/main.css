@@ -33,19 +33,19 @@ nav ul{
 }
 
 .slide-two {
-	background-image: url(../img/pexels-tech.jpg);
+	background-image: url(../img/pexels-motherb.jpeg);
 }
 
 .slide-three {
-	background-image: url(../img/pexels-tech.jpg);
+	background-image: url(../img/pexels-background.jpg);
 }
 
 .slide-four {
-	background-image: url(../img/pexels-tech.jpg);
+	background-image: url(../img/pexels-teen.jpg);
 }
 
 .carousel-inner .item {
-	height: 800px;
+	height: 900px;
 	background-size: cover;
 	background-position: center;
 }
@@ -84,6 +84,7 @@ nav ul{
 .btn-primary:hover {
     background-color:#4dbce9   ;
     border-color: transparent;
+    
 }
 
 .carousel-caption p {
@@ -170,4 +171,8 @@ nav ul{
 
 .col-md-4 p{
     padding-top:15px;
+}
+
+.col-md-6 p {
+    padding-bottom:15px;
 }
