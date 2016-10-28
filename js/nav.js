@@ -49,9 +49,13 @@ function toggleNav(){
     
 }
 
+function bodyClick(){
+    goLeft();
+    list.removeClass("toggled");
+}
 
 listLeft();
 logo();
 
 logoEl.on("click", toggleNav);
-document.body.on("click", toggleNav);
+$("body>*").not("nav").on("click", bodyClick);
