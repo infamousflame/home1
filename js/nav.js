@@ -50,8 +50,10 @@ function toggleNav(){
 }
 
 function bodyClick(){
-    goLeft();
-    list.removeClass("toggled");
+    if(list.hasClass("toggled")){
+        goLeft();
+        list.removeClass("toggled");
+    }
 }
 
 listLeft();
